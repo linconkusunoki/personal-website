@@ -15,6 +15,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       className={cn('shadow-small', {
         'hover:shadow-medium transition-shadow duration-200': slug,
       })}
+      loading="lazy"
     />
   )
   return (
