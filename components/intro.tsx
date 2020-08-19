@@ -12,10 +12,6 @@ const links = [
     href: '/blog',
     name: 'Blog',
   },
-  // {
-  //   href: '/portfolio',
-  //   name: 'Portfolio',
-  // },
 ]
 
 const Intro = ({ name }: Props) => {
@@ -31,7 +27,7 @@ const Intro = ({ name }: Props) => {
             <Link href={href} key={name}>
               <a
                 aria-label={name}
-                className={router.pathname === href ? 'font-bold ml-4' : 'ml-4'}
+                className={router.pathname === href ? 'font-bold mx-2' : 'mx-2'}
               >
                 {name}
               </a>
