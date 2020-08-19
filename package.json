@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
+    "darkmode-js": "^1.5.6",
     "date-fns": "2.10.0",
     "gray-matter": "4.0.2",
     "next": "latest",

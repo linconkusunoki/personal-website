@@ -2349,6 +2349,11 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
+darkmode-js@^1.5.6:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/darkmode-js/-/darkmode-js-1.5.6.tgz#9b90b3731945ab41ddd81bd2f52802fd93a5f548"
+  integrity sha512-V2HxC7yMK1ojK4ZgJCs/O0End6qF0BNfUy523ZUa8YIuB+/AoCnOZ2V0g/fgX5yl/0bqvqAjCbPwsOyaKeRCww==
+
 data-uri-to-buffer@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-3.0.0.tgz#8a3088a5efd3f53c3682343313c6895d498eb8d7"
