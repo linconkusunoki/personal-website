@@ -18,15 +18,13 @@ const Index = () => {
         <Container>
           <Intro name="Sobre" />
           <p className="text-lg leading-relaxed mb-4 mt-12">
-            Eu sou um Software Developer especializado em Frontend, Tenho mais
-            de 6 anos de experiencia construindo software para clientes. Nos
-            últimos anos, eu trabalhei no Grupo Locaweb que é uma das maiores
-            empresas de tecnologia do Brasil, como Frontend, eu pude liderar o
-            time da Agência de E-commerce (Tray), onde eu resolvi problemas como
-            Web Performance, otimização dos layouts para melhor rank nos motores
-            de busca, também a implementação de Responsive Design e atuei no
-            desenvolvimento de novos templates que ajudavam a otimizar o tempo
-            de entrega da equipe.
+            Sou Senior Frontend Engineer na @Cecotec, Tenho mais de 7 anos de
+            experiencia criando arquitetura e desenvolvendo software. Nos
+            últimos anos, tenho focado em desenvolver aplicações que vão durar
+            mais e entregar mais valor às empresas. Gosto muito de estudar sobre
+            Design Patterns, SOLID e TDD. Tenho focado bastante e remover a
+            regra de negócio dos frameworks (React, Vue e Angular) e definir
+            todo o core usando Clean Architecture.
           </p>
           <div className="my-12">
             <CoverImage
@@ -34,21 +32,11 @@ const Index = () => {
               title="Lincon Kusunoki"
             />
           </div>
-          <p className="text-lg leading-relaxed mb-4">
-            No meu último emprego no time de Engenharia da Yapay, eu pude
-            começar a implementação de um Design System do zero, onde a minha
-            missão criar uma guideline de Design para todos os aplicativos
-            empresa e também definir padrões sólidos de desenolvimento na
-            arquitetura Frontend. Abaixo é um rápido overview da minha história
-            e meu principal set de habilidades técnicas e tecnologias que eu
-            gosto de utilizar.
-          </p>
 
           <h3 className="mt-8 text-2xl leading-tight">Contato</h3>
 
           <p className="text-lg leading-relaxed">
-            Interessado em me contratar para seu projeto ou apenas quer dizer
-            oi? Sinta-se a vontade para{' '}
+            Quer dar um oi? Sinta-se a vontade para{' '}
             <a
               href="mailto:linconkusunoki@gmail.com"
               className="text-blue-600 hover:underline"
@@ -107,6 +95,20 @@ const Index = () => {
 }
 
 const jobs = [
+  {
+    title: 'Senior Frontend Engineer',
+    date: 'Março 2021 - Atual',
+    place: 'Cecotec Innovaciones S. L.',
+    description:
+      'Na Cecotec estamos trabalhando no desenvolvimento de um app utilizando React-Native, utilizando Monorepos e Clean Architecture, minha principal função é implementar uma solução que dure e que seja flexível suficiente para se usar em todos os Frameworks JavaScript Web/Hibridos.',
+  },
+  {
+    title: 'Senior Frontend Engineer',
+    date: 'Novembro 2019 - Março 2020',
+    place: 'Moss Earth',
+    description:
+      'Minhas responsabilidades na Moss foram de implementar soluções escaláveis e seguras, desenvolver componentes que possam ser flexíveis e fáceis de mudar e fornecer uma maneira clara de conectar projetos com um design alinhado. Além disso, também executo testes cross-browser e me preocupo com acessibilidade e experiência do usuário.',
+  },
   {
     title: 'Frontend Specialist',
     date: 'Maio 2018 - Novembro 2019',
