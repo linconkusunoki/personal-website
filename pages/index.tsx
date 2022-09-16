@@ -3,7 +3,7 @@ const Home = () => {
     <main className="w-96 bg-white relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
       <span className="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
 
-      <div className="justify-between sm:flex">
+      <div className="justify-between flex">
         <div>
           <h1 className="text-xl font-bold text-gray-900">Lincon Kusunoki</h1>
           <h2 className="mt-1 text-xs font-medium text-gray-600">
@@ -11,7 +11,7 @@ const Home = () => {
           </h2>
         </div>
 
-        <div className="flex-shrink-0 hidden ml-3 sm:block">
+        <div className="flex-shrink-0 ml-3 sm:block">
           <img
             className="object-cover w-16 h-16 rounded-lg shadow-sm"
             src="https://avatars.githubusercontent.com/u/5117676?v=4"
