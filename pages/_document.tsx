@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head />
-        <body>
+        <body className="h-screen flex justify-center items-center bg-slate-100">
           <Main />
           <NextScript />
         </body>
